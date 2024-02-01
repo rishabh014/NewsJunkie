@@ -29,7 +29,7 @@ const News = (props) => {
         setArticles(parsedData.articles);
         setTotalResults(parsedData.totalResults);
         setLoading(false);
-        props.setProgress && props.setProgress(100);
+        props.setProgress && props.setProgress(90);
     };
 
     useEffect(() => {
